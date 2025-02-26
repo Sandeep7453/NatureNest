@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import Kedarnath4 from  '../Blog/Images/Kedarnath4.jpeg'
+import Kedarnath4 from  '../Blog/Images/Kedarnath1.webp'
 
 
 const Kedarnath = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import card from '../Images/Section2Card.jpeg';
+import card from '../Images/Section2Card.webp';
 
 const Section2 = () => {
   return (

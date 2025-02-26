@@ -1,6 +1,6 @@
 import React from "react";
 
-import bgImg from "../Images/Hero_bg.jpeg";
+import bgImg from "../Images/Hero_bg.webp";
 
 const Hero = () => {
   return (

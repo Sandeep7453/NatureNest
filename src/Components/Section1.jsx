@@ -1,6 +1,6 @@
 import React from 'react';
 import Img_Carousel from './Img_Carousel';
-import tree from '../Images/tree-top.png';
+import tree from '../Images/tree-top.webp';
 
 const Section1 = () => {
   return (

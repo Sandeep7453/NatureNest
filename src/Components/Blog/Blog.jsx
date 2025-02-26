@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../Blog/Card_Blog'
 import { Link } from 'react-router-dom'
 import Neelkanth from '../Blog/Images/Neelkanth.webp'
-import Kedarnath from '../Blog/Images/Kedarnath4.jpeg'
+import Kedarnath from '../Blog/Images/Kedarnath1.webp'
 
 const Blog = () => {
   return (

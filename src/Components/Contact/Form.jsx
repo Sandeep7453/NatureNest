@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact_bg from '../../Images/Contact_bg.jpg';
+import Contact_bg from '../../Images/Contact_bg.webp';
 
 const Form = () => {
   return (

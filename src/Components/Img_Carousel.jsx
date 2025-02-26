@@ -1,10 +1,10 @@
 import React from "react";
-import nature1 from "../Images/nature1.jpg";
-import nature2 from "../Images/nature2.jpg";
-import nature3 from "../Images/nature3.jpg";
-import nature4 from "../Images/nature4.jpg";
-import nature5 from "../Images/nature5.jpg";
-import nature6 from "../Images/nature6.jpg";
+import nature1 from "../Images/nature1.webp";
+import nature2 from "../Images/nature2.webp";
+import nature3 from "../Images/nature3.webp";
+import nature4 from "../Images/nature4.webp";
+import nature5 from "../Images/nature5.webp";
+import nature6 from "../Images/nature6.webp";
 
 const images = [nature1, nature2, nature3, nature4, nature5, nature6];
 

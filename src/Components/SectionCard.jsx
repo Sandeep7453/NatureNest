@@ -1,10 +1,10 @@
 import React from 'react';
 import Cards from './Cards';
-import Landscape from '../Images/Landscape_card.jpg';
-import Wilderness from '../Images/Wilderness_card.jpg';
-import MountainView from '../Images/Mountain_card.jpg'
-import Sunset from '../Images/Sunset.jpg'
-import RiverValley from '../Images/RiverValley.jpg'
+import Landscape from '../Images/Landscape_card.webp';
+import Wilderness from '../Images/Wilderness_card.webp';
+import MountainView from '../Images/Mountain_card.webp'
+import Sunset from '../Images/Sunset.webp'
+import RiverValley from '../Images/RiverValley.webp'
 
 const SectionCard = () => {
   const cardData = [
