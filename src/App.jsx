@@ -9,7 +9,7 @@ import About from "./Components/About/About";
 import Gallery from "./Components/Gallery/Gallery";
 import Blog from "./Components/Blog/Blog";
 import Contact from "./Components/Contact/Form";
-import Kedarnath from "./Components/Blog/Kedarnath"; // ✅ Import Kedarnath page
+import Kedarnath from "./Components/Blog/Kedarnath"; 
 import Neelkanth from "./Components/Blog/Neelkanth";
 
 import "./App.css";
@@ -17,7 +17,7 @@ import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <Router> 
+    <Router basename="/NatureNest">  {/* ✅ Fix: basename added */}
       <Navbar />
 
       <Routes>
@@ -34,9 +34,10 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/kedarnath" element={<Kedarnath />} />
-        <Route path ="/neelkanth" element={<Neelkanth/>} />
+        <Route path="/neelkanth" element={<Neelkanth />} />
       </Routes>
-      <Footer/>
+
+      <Footer />
     </Router>
   );
 };
