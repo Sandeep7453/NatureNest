@@ -11,7 +11,7 @@ import Blog from "./Components/Blog/Blog";
 import Contact from "./Components/Contact/Form";
 import Kedarnath from "./Components/Blog/Kedarnath"; 
 import Neelkanth from "./Components/Blog/Neelkanth";
-
+import "./index.css"
 import "./App.css";
 import Footer from "./Components/Footer";
 
