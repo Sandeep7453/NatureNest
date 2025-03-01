@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Section1 from "./Components/Section1";
@@ -17,7 +17,7 @@ import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <Router basename="/NatureNest">  {/* ✅ Fix: basename added */}
+    <Router basename={import.meta.env.DEV ? '/' : '/NatureNest'}>
       <Navbar />
 
       <Routes>

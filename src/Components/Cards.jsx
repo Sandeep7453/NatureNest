@@ -8,8 +8,6 @@ const Cards = ({image, title, description, button}) => {
         <h3 className='text-2xl font-bold'>{title} </h3>
         <p className='text-gray-100'>{description} </p>
         <button className='outline-2 p-3 rounded-4xl bg-blue-700 text-white outline-blue-700 mt-3'>{button} </button>
-      
-
     </div>
   )
 }
