@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="h-[100vh]">
     <div
-      className="min-h-screen bg-cover bg-center flex justify-center items-center flex-col w-dvw h-[100vh]"
+      className="min-h-screen bg-cover bg-center flex justify-center items-center flex-col h-[100vh]"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <h1 className="text-7xl font-bold bg-gradient-to-r from-red-500 to-orange-500 text-transparent bg-clip-text md:mt-55 animate-bounce pl-2">
@@ -16,7 +16,13 @@ const Hero = () => {
       "Nature is not just a place to visit; it is where we belong. It is where the sunrises remind us of new beginnings, the forests teach us patience, and the mountains stand as proof that strength is found in stillness."
       </p>
      
-    </div></div> 
+    </div>
+
+    <div className="video">
+
+      
+    </div>
+    </div> 
   );
 };
 

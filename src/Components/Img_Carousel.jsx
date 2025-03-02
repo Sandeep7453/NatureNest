@@ -15,7 +15,7 @@ const Img_Carousel = () => {
         <img
           key={index}
           src={img}
-          className="h-56 w-auto rounded-4xl border-2 drop-shadow-2xl animate-floating mt-5 "
+          className="h-56 w-auto rounded-3xl border-none drop-shadow-2xl animate-floating mt-5 "
         />
       ))}
     </div>

@@ -16,7 +16,7 @@ const Section1 = () => {
           <h1 className='md:hidden mb-2 md:text-[2rem] mx-3 p-5 md:w-[45%] text-center font-semibold italic bg-gradient-to-r from-amber-500 to-pink-500 rounded-4xl'>
             🌿🌿"Discover the Magic of Greenery - Let Nature Soothe Your Soul.🌿"
           </h1>
-          <h1 className='md:mt-[-30] mb-2 md:text-[2rem] mx-3 p-5 md:w-[45%] text-center font-semibold italic bg-gradient-to-r from-amber-500 to-pink-500 rounded-4xl'>
+          <h1 className='md:mt-[40px] rounded-3xl mb-2 md:text-[2rem] mx-3 p-5 md:w-[45%] text-center font-semibold italic bg-gradient-to-r from-amber-500 to-pink-500 rounded-4xl'>
             🌿"Breathe in the Freshness of Nature - A Symphony of Peace Awaits.🌿"
           </h1>
           <h1 className='md:hidden mb-2 md:text-[2rem] mx-3 p-5 md:w-[45%] text-center font-semibold italic bg-gradient-to-r from-amber-500 to-pink-500 rounded-4xl'>

@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-emerald-800 text-white flex justify-between items-center md:px-20 p-5 md:sticky top-0 w-full h-[9vh] z-50 shadow-lg">
       
       {/* Logo */}
-      <div className="text-2xl font-bold ">HimalVani</div>
+      <div className="text-2xl font-bold ">NatureNest</div>
 
       {/* Hamburger Button (Mobile) */}
       <button 
