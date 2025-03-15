@@ -52,6 +52,7 @@ emailjs.sendForm('service_wzr8n9o', 'template_22pm6cc', e.target , '3wAAasTYazW9
           <textarea 
             placeholder="Write your message here..." 
             className='p-3 h-32 rounded-lg bg-transparent text-gray-900 outline-none border border-gray-700 focus:border-emerald-600 transition-all duration-300'
+            name='message'
           ></textarea>
 
           {/* Phone Input */}
@@ -60,6 +61,7 @@ emailjs.sendForm('service_wzr8n9o', 'template_22pm6cc', e.target , '3wAAasTYazW9
             type="tel" 
             placeholder="Enter your phone number (optional)" 
             className='p-3 rounded-lg bg-transparent text-gray-900 outline-none border border-gray-700 focus:border-emerald-600 transition-all duration-300'
+            name='phone'
           />
 
           {/* Submit Button */}
