@@ -1,7 +1,18 @@
 import React from 'react';
 import Contact_bg from '../../Images/Contact_bg.webp';
+import emailjs from '@emailjs/browser';
 
 const Form = () => {
+
+const sendEmail = (e) => {
+  e.preventDefault();
+  alert("Email sent");
+
+emailjs.sendForm('service_wzr8n9o', 'template_22pm6cc', e.target , '3wAAasTYazW97jH0X')
+
+}
+
+
   return (
     <div 
       className='h-[100vh] bg-center bg-cover flex justify-center items-center p-5' 
@@ -15,7 +26,7 @@ const Form = () => {
         </h2>
 
         {/* Form Fields */}
-        <form className='flex flex-col gap-4'>
+        <form className='flex flex-col gap-4' onSubmit={sendEmail}>
           {/* Name Input */}
           <label className='text-lg font-semibold text-gray-900'>Name:</label>
           <input 
@@ -30,6 +41,8 @@ const Form = () => {
             type="email" 
             placeholder="Enter your email" 
             className='p-3 rounded-lg bg-transparent text-gray-900 outline-none border border-gray-700 focus:border-emerald-600 transition-all duration-300'
+            name='email_from'
+            id='emailFrom'
           />
 
           {/* Message Textarea */}

@@ -8,9 +8,10 @@ const Section1 = () => {
       <div className="flex items-center justify-center relative flex-col pt-15">
         <Img_Carousel />
         
+
         <img src={tree} alt="Tree" className='h-fit w-[150em] md:hidden z-10 absolute top-0' />
 
-
+        {/* Quotes Section */}
         <div className='flex flex-col w-[100%] h-fit mt-20 md:mt-40 md:flex md:justify-center md:items-center'>
           <h1 className='md:hidden  rounded-3xl mb-2 md:text-[2rem] mx-3 p-5 md:w-[45%] text-center font-semibold italic bg-gradient-to-r from-amber-500 to-pink-500 rounded-4xl'>
             🌿🌿"Discover the Magic of Greenery - Let Nature Soothe Your Soul.🌿"
@@ -32,7 +33,7 @@ const Section1 = () => {
           </h1>
         </div>
       </div>
-
+      {/* Bottom Tree Image (Rotated 180 degrees) */}
       <img src={tree} alt="Tree" className='h-fit w-[150em] md:hidden z-10 absolute bottom-[-10vh] rotate-180' />
     </div>
   );

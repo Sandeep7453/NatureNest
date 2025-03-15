@@ -1,5 +1,3 @@
-
-
   /* Img_carousal animation */
 
   @keyframes floating {
@@ -10,5 +8,84 @@
   
   .animate-floating {
     animation: floating 2s infinite ease-out;
+  }
+
+  /* Leaf falling animation */
+  @keyframes leafFall {
+    0% {
+      transform: translateY(-100%) rotate(0deg);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  .animate-leaf-fall {
+    animation: leafFall 15s linear infinite;
+  }
+
+  /* Nature pulse animation */
+  @keyframes naturePulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4);
+    }
+    70% {
+      box-shadow: 0 0 0 20px rgba(52, 211, 153, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+    }
+  }
+
+  .animate-nature-pulse {
+    animation: naturePulse 2s infinite;
+  }
+
+  /* Gentle wind animation */
+  @keyframes gentleWind {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    25% {
+      transform: rotate(3deg) scale(1.02);
+    }
+    75% {
+      transform: rotate(-3deg) scale(0.98);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
+  }
+
+  .animate-gentle-wind {
+    animation: gentleWind 4s ease-in-out infinite;
+  }
+
+  /* Sunrise/Sunset gradient animation */
+  @keyframes dayNightCycle {
+    0% {
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    }
+    25% {
+      background: linear-gradient(45deg, #89f7fe, #66a6ff);
+    }
+    50% {
+      background: linear-gradient(45deg, #4facfe, #00f2fe);
+    }
+    75% {
+      background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    }
+    100% {
+      background: linear-gradient(45deg, #2f2f2f, #4a4a4a);
+    }
+  }
+
+  .animate-day-night {
+    animation: dayNightCycle 30s infinite;
   }
   
