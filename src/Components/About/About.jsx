@@ -1,15 +1,12 @@
 import React from 'react';
 import About_bg from './Images/AboutUs_bg.webp';
 import CommunityImage from './Images/Community.webp';
-import PolicyImage from './Images/Driving_POlicy.webp';
+// import PolicyImage from './Images/Driving_POlicy.webp';
 import YouthImage from './Images/Inspiring.webp';
 import TechImage from './Images/Technology.webp'
 import BusinessImage from './Images/Working.webp'
 import ScienceImage from './Images/Science.webp'
 import FinanceImage from './Images/Finance.webp'
-
-
-
 
 const About = () => {
   return (
@@ -53,7 +50,7 @@ const About = () => {
 
       {/* Policy Section */}
       <div className="flex flex-col md:flex-row-reverse items-center gap-10">
-        <img src={PolicyImage} alt="Policy" className="w-full md:w-1/2 h-72 object-cover object-center rounded-lg shadow-lg" />
+        <img src={CommunityImage} alt="Policy" className="w-full md:w-1/2 h-72 object-cover object-center rounded-lg shadow-lg" />
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold">Advocating for Change</h2>
           <p className="text-lg mt-4">Through responsible advocacy, we work with policymakers to integrate nature-based solutions into critical environmental and economic strategies.</p>
